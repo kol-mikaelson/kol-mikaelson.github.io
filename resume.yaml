@@ -1,0 +1,124 @@
+cv:
+  name: "Madduri Purandhar Reddy"
+  tagline: "Software Engineer & AI Researcher"
+  social_networks:
+    - network: "LinkedIn"
+      username: "purandhar-reddy"
+    - network: "GitHub"
+      username: "kol-mikaelson"
+
+  sections:
+    technologies:
+      - label: "Languages"
+        details: "Go, Python, JavaScript, TypeScript, Java, C/C++, Rust, SQL, HTML/CSS"
+      - label: "AI Fluency"
+        details: "Cursor, Windsurf (Vibe Coding), GPT-4o, LLMs, Prompt Engineering, Agentic Workflows, MCP, WandB"
+      - label: "DevOps / DevSecOps"
+        details: "Git, GitHub, BitBucket, ArgoCD, Jenkins, Docker, Amazon AWS, Linux"
+      - label: "Frameworks & Libraries"
+        details: "FastAPI, Flask, Gin, React, Pandas, NumPy, OpenCV, PyTorch Lightning, Optuna"
+
+    experience:
+      - company: "Cyware"
+        position: "Software Engineer Intern"
+        location: "Bengaluru"
+        start_date: "2025-08"
+        highlights:
+          - "**Migrated Cyware Orchestrate SOC platform** from legacy Python monolith to high-concurrency Go microservices architecture."
+          - "**Developed core security-automation features** in Go; evaluated AI-generated code for security."
+          - "**Streamlined containerized deployments** via ArgoCD and Jenkins CI/CD pipelines."
+          - "**Resolved live customer-reported issues** using AI-assisted diagnostics during on-call production duty to minimize downtime."
+
+      - company: "WSAI IIT Madras"
+        position: "Research Intern"
+        location: "Chennai"
+        start_date: "2025-05"
+        end_date: "2025-07"
+        highlights:
+          - "**Benchmarked 10+ LLMs** on BLURB benchmark using quantitative analytics in Python."
+          - "**Architected Mixture-of-Experts (MoE) BioNER pipeline** fine-tuning 7 PubMedBERT models, achieving **0.8233 average recall**."
+          - "**Built Hybrid Annotation System** (async Python + GPT-4o-mini) identifying **36,000+ additional entity mentions**."
+          - "**Automated ETL pipelines** transforming PubMed literature into CoNLL 2002 format."
+
+      - company: "Virtusa"
+        position: "Junior Associate Intern"
+        location: "Chennai"
+        start_date: "2024-12"
+        end_date: "2025-02"
+        highlights:
+          - "**Built high-performance REST API** using FastAPI for specialized OCR and NER tasks."
+          - "**Redesigned data preprocessing pipelines**, yielding **21% increase** in OCR accuracy on low-quality images."
+          - "**Designed information-extraction workflow**, achieving **13% reduction** in manual effort and **17% increase** in throughput."
+
+      - company: "Bintix Research Limited"
+        position: "Data Analyst Intern"
+        location: "Hyderabad"
+        start_date: "2024-05"
+        end_date: "2024-07"
+        highlights:
+          - "**Evaluated 8 commercial and open-source OCR models** and Multi-Modal LLMs for high-accuracy data extraction."
+          - "**Increased profiling accuracy 64% -> 82%** using advanced Prompt Engineering and Python-based pipelines."
+          - "**Built Packaging Material Identification system** using YOLO, achieving **84% accuracy**; reduced processing time from **3-5m -> 1-2m**."
+
+    education:
+      - institution: "Indian Institute of Information Technology Kottayam"
+        area: "Computer Science"
+        degree: "B.Tech (Honors)"
+        start_date: "2022-11"
+        end_date: "2026-05"
+        highlights:
+          - "CGPA: **8.30**"
+          - "Coursework: Operating Systems, Data Structures & Algorithms, Database Management, Compiler Design, High Performance Computing, Probability & Statistics"
+
+    professional_projects:
+      - name: "Implicit Hate Speech Detection in Code-Mixed Indic Languages"
+        date: "2024-08"
+        highlights:
+          - "**Architected multi-stage NLP framework** using multilingual transformer models (MuRIL, XLM-RoBERTa)."
+          - "**Curated specialized benchmark dataset** of **10,000+ samples** with robust algorithmic guardrails."
+          - "**Conducted comparative error analysis** between general-purpose LLMs and fine-tuned encoders."
+
+      - name: "Jeaporady"
+        date: "2024-02"
+        highlights:
+          - "**Developed real-time auction web app** in React + TypeScript with controlled bidding logic."
+          - "**Deployed with Firebase** for scalable hosting; managed full SDLC via Git."
+
+      - name: "FZero"
+        date: "2023-11"
+        highlights:
+          - "**Built computer vision pipeline** using YOLOv8 to detect, track, and classify football players with high accuracy."
+
+    publication:
+      - title: "Does Hate Transfer? Cross-Lingual Offensive Content Detection Across Indic Languages"
+        authors:
+          - "Madduri Purandhar Reddy"
+          - "Sara Renjit"
+        date: "2026-06"
+        journal: "NLPAICS 2026"
+
+      - title: "GCTAF: A Multimodal Deep Learning Architecture for Solar Flare Prediction"
+        authors:
+          - "Madduri Purandhar Reddy"
+          - "Geethu Radhakrishnan"
+          - "J V Bibal Benifa"
+          - "Mugalihalli Pawan"
+          - "Earthineni Gayathri Vyshnavi"
+          - "Kamma Jaswanth"
+        date: "2026-01"
+        journal: "PEIS 2026 (Springer LNEE Vol. 3)"
+
+    leadership:
+      - name: "OWASP Student Chapter — Chapter Lead"
+        highlights:
+          - "**Organized Apoorv CTF**, reinforcing hands-on cybersecurity and DevSecOps skills."
+          - "**Led 2 week-long cybersecurity awareness drives**, introducing **100+ students** to security tools and practices."
+      
+      - name: "Cybersecurity Club IIITK — Sub-Lead"
+        highlights:
+          - "**Co-founded inaugural tech club**, conducting 2 interactive sessions for **100+ participants**."
+      
+      - name: "Google Developer Student Club IIITK — Sub-Lead"
+        highlights:
+          - "**Grew club visibility by 40%** and engagement to **500+ followers**."
+          - "**Led planning of large-scale event** attended by **350+ participants**."
